@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 
 const Component = (props) => {
   const { state } = useLocation();
-  console.log(state);
   const { name, email, age, gender } = state.formData;
   return (
     <div>

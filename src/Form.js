@@ -27,7 +27,6 @@ const Form = () => {
         formData,
       },
     });
-    setFormData({});
   };
   return (
     <>
